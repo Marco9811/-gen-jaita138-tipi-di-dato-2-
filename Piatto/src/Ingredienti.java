@@ -4,7 +4,10 @@ public class Ingredienti {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Il nome:");
+        String nomeIngrediente = sc.nextLine();
         
+        sc.close();
 
 }
 }
